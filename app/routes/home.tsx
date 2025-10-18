@@ -9,7 +9,7 @@ import { usePuterStore } from "~/lib/puter"
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resumind" },
+    { title: "ATS Genius" },
     { name: "description", content: "Smart feedback for your dream job" },
   ];
 }
@@ -59,7 +59,9 @@ export default function Home() {
             <h2>No resumes found. Upload your first resume to get feedback.</h2>
           ):(
 
-          <h2>Review your submissions and check AI-powered feedback</h2>
+          <h2>ATS Genius – Your Free AI-Powered Resume Analyzer<br></br>
+          Review your submissions and check AI-powered feedback</h2>
+          
           )}
 
         </div>
